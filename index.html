@@ -1,0 +1,115 @@
+<html>
+<head>
+<title> My Portfolio </title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="icon" href="images/home.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+<header>
+<video autoplay loop muted playsinline id="backgroundVideo">
+    <source src="images/background.mp4" type="video/mp4">
+</video>
+<div id="background">
+	
+<h3>Shikha</h3>
+<nav>
+<div class="navigation" ><a href="#myInfo">About</a></div>
+<div class="navigation"> <a href="#projects">Projects</a></div>
+<div class="navigation"><a href="#myContact">Contancts</a></div>
+</nav>
+</div>
+<div id="me">
+	<h1>About me</h1>
+	<div id="myInfo"><p style="text-align: center; font-size: 30px; color:rgb(255, 255, 255)">  I am Shikha Pandey. I am 19 years old. A computer science student currently studying in Herald college kathmandu. </p></div>
+	<a href="https://github.com/Shikha-SP" target="_blank"><img src="https://sourcebae.com/blog/wp-content/uploads/2023/09/maxresdefault-44.jpg" ></a>
+<p style="text-align: center; font-size: 20px; color:rgb(255, 255, 255)">Click the image to go to my github account</p></div>
+</header>
+<br>
+<br>
+
+
+<main>
+<div id="design">
+
+	<h1 id="projects" style="color:rgb(31, 69, 99)">Projects</h1><br>
+	<p style="text-align: center; font-size: 20px; color:rgb(0, 0, 0);font-family: 'Montserrat', 'sans-serif';">Click the image to go to my github project</p>
+	<article class="carousel">
+<div class="group">
+	<div class="card">
+		        <h4>Hunting Reserve</h4>
+			<a href="https://github.com/Shikha-SP/Hunting-Reserve-Game" target="_blank"><img src="images/DeadBharal.png" alt="project1"></a>
+	</div>
+	<div class="card">
+				<h4>Movie Recommender</h4>
+			<a href="https://github.com/Shikha-SP/movie-recommender?tab=readme-ov-file" target="_blank" ><img src="images/recommender.png" alt="project2"></a>
+	</div>
+	<div class="card">
+				<h4>Bank Management System</h4>
+			<a href="https://github.com/Shikha-SP/BANK-MANAGEMENT-SYSTEM-JAVA" target="_blank"><img src="images/bank.png" alt="project3"></a>
+	</div>
+	<div class="card">
+				<h4>Ceaser cipher</h4>
+			<a href="https://github.com/Shikha-SP/Ceasar-Cipher" target="_blank"><img src="https://media.geeksforgeeks.org/wp-content/uploads/ceaserCipher.png" alt="project4"></a>
+	</div>
+	
+</div>
+<div aria-hidden class="group">
+	<div class="card">
+		        <h4>Hunting Reserve</h4>
+			<a href="https://github.com/Shikha-SP/Hunting-Reserve-Game" target="_blank"><img src="images/DeadBharal.png" alt="project1"></a>
+	</div>
+	<div class="card">
+				<h4>Movie Recommender</h4>
+			<a href="https://github.com/Shikha-SP/movie-recommender?tab=readme-ov-file" target="_blank"><img src="images/recommender.png" alt="project2"></a>
+	</div>
+	<div class="card">
+				<h4>Bank Management System</h4>
+			<a href="https://github.com/Shikha-SP/BANK-MANAGEMENT-SYSTEM-JAVA" target="_blank"><img src="images/bank.png" alt="project3"></a>
+	</div>
+	<div class="card">
+				<h4>Ceaser cipher</h4>
+			<a href="https://github.com/Shikha-SP/Ceasar-Cipher" target="_blank"><img src="https://media.geeksforgeeks.org/wp-content/uploads/ceaserCipher.png" alt="project4"></a>
+	</div>
+	
+</div>
+	</article>
+</div>
+	
+<h1 id="contactHeader">Contacts</h1>
+	<article id="myContact">
+	<form id="contactForm">
+		<div class="contact">
+		<label> Name:</label>
+		<input type="text" placeholder="Type your name here" id="Name"></input><br>
+        <p id="name_error"></p>
+	    </div>
+	    <div class="contact">
+		<label> Email:</label>
+		<input type="text" placeholder="Type your email here" id="Email"></input><br>
+        <p id="mail_error"></p>
+		</div>
+		<div class="contact">
+		<label> Message:</label>
+		<textarea row=5 column=7 placeholder="Type your message here" id="Message"></textarea>
+        <p id="message_error"></p>
+			<br>
+			<br>
+		</div>
+		<button id="Submit">submit</button><br><br><br>
+	</form>
+	</article>
+</main>
+
+<footer>
+	<p>Copyright © 2025 Shikha</p>
+</footer>
+
+<script src="portfolio.js"></script>
+</body>
+</html>
