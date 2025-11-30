@@ -206,82 +206,84 @@ label {
 
 /* #for mobile */
 
-/* Mobile Responsive */
+
 @media (max-width: 768px) {
-    header {
-    height: auto;
-    padding: 10px;
-    margin:20px;
-  }
-header #me img{
 
-    width: 70vw;
-    height: auto;
+body {
+  font-size: 16px;
 }
-  #background {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 10px;
-  }
-img {
-    height: auto;
 
+h1 {
+  font-size: 2.5rem; 
+  text-align: center;
 }
-  nav {
-    flex-direction: column;
-    gap: 10px;
-    width: 100%;
-  }
 
-  .navigation {
-    margin-left: 0;
-  }
+h4 {
+  font-size: 1.2rem;
+}
 
-  #me h1 {
-    font-size: 40px;
-    text-align: center;
-  }
 
-  #myInfo p {
-    font-size: 16px;
-    line-height: 1.4;
-    text-align: center;
-    padding: 0 10px;
-  }
+header, #background {
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
 
-  #me img {
-    width: 150px;
-    height: auto;
-  }
+#background h1 {
+  font-size: 2.2rem;
+}
 
-  /* Projects */
-  .carousel {
-    width: 100%;
-    padding: 10px 0;
-  }
+#me img {
+  width: 120px;
+  height: auto;
+  border-radius: 50%;
+}
 
-  .group {
-    gap: 1em;
-  }
 
-  .card {
-    flex: 0 0 10em;
-    height: 15em;
-    font-size: 2em;
-    padding: 0.5em;
-  }
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 10px;
+  width: 100%;
+  padding: 10px;
+}
 
-  /* Contact form */
-  input, textarea {
-    width: 90vw;
-    height: 45px;
-  }
+.card {
+  flex: 0 0 70%;
+  min-width: 200px;
+  height: auto;
+  padding: 1em;
+  font-size: 1.2rem;
+  border-radius: 0.5em;
+  text-align: center;
+  background: #002b3d;
+  color: white;
+  scroll-snap-align: start;
+}
 
-  button {
-    width: 80%;
-    height: 45px;
-    font-size: 18px;
-  }
+
+input, textarea {
+  width: 90%;
+  max-width: 400px;
+  padding: 0.5em;
+}
+
+button {
+  width: 90%;
+  max-width: 300px;
+  padding: 0.5em;
+  font-size: 1rem;
+}
+
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 0 10px;
+  text-align: center;
+}
+
 }
 
 
